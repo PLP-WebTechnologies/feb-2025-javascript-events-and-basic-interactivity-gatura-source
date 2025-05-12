@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> JS Event Playground</h1>
+
+  <!-- Event Handling -->
+  <button id="changeButton">Click Me!</button>
+  <div id="hoverBox">Hover over me!</div>
+  <input type="text" id="keyInput" placeholder="Type something...">
+
+  <!-- Interactive Elements -->
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <div class="tab-content" id="tab-1">Content for Tab 1</div>
+    <div class="tab-content" id="tab-2" style="display: none;">Content for Tab 2</div>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImg" src="download (2).jpeg" alt="Gallery" width="200">
+    <img id="galleryImg" src="download (3).jpeg" alt="Gallery" width="200">
+
+    <button id="nextImg">Next</button>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="signupForm">
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password" placeholder="Password" required><br>
+    <button type="submit">Submit</button>
+    <div id="formFeedback"></div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

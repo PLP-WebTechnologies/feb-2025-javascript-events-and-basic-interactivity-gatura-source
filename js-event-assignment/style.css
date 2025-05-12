@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background: #f4f4f9;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.tab-content {
+  margin-top: 10px;
+}
+
+.gallery img {
+  border: 2px solid #333;
+}
